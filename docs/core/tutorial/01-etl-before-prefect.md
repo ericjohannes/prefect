@@ -12,6 +12,8 @@ Grab the tutorial code:
 
 ```
 git clone --depth 1 https://github.com/PrefectHQ/prefect.git
+python3 -m venv env  
+source env/bin/activate   
 cd prefect/examples/tutorial
 pip install -r requirements.txt
 ```
